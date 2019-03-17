@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { RegistrarUsuarioComponent } from './components/registrar-usuario/registrar-usuario.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { SliderComponent } from './components/slider/slider.component';
     NavigationComponent,
     RegistrarUsuarioComponent,
     SliderComponent,
+    LoginComponent,
     
   ],
   imports: [
