@@ -11,6 +11,11 @@ import { LoginComponent } from './components/login/login.component';
 
 import { UsuariosService } from './services/usuarios.service'; 
 import { FormsModule } from '@angular/forms';
+import { CatalogoComponent } from './components/catalogo/catalogo.component';
+import { CategoriasComponent } from './components/categorias/categorias.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { DecoracionComponent } from './components/decoracion/decoracion.component';
+import { AsesoriaComponent } from './components/asesoria/asesoria.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +24,11 @@ import { FormsModule } from '@angular/forms';
     RegistrarUsuarioComponent,
     SliderComponent,
     LoginComponent,
+    CatalogoComponent,
+    CategoriasComponent,
+    FooterComponent,
+    DecoracionComponent,
+    AsesoriaComponent,
     
   ],
   imports: [
